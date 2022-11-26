@@ -8,7 +8,7 @@ const props = defineProps({
 });
 </script>
 <template>
-  <section class="min-h-screen flex flex-col justify-end">
+  <section id="jobs" class="min-h-screen flex flex-col justify-end">
     <div>
       <div v-for="(job, key) in data" :key="`description-${key}`">
         <article class="text-justify" v-html="Marked.parse(job.markdown)" />

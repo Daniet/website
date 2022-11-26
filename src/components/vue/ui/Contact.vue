@@ -53,7 +53,7 @@ function hiddenFrom() {
     />
     <div class="flex items-center justify-between">
       <button @click="hiddenFrom">atras</button>
-      <button type="submit" class="bg-orange text-white py-1 px-4 rounded-xl">
+      <button type="submit" class="bg-primary text-white py-1 px-4 rounded-xl">
         enviar
       </button>
     </div>

@@ -55,7 +55,7 @@ function showProps() {
 }
 </script>
 <template>
-  <section class="h-screen flex justify-center items-center">
+  <section id="contact-us" class="h-screen flex justify-center items-center">
     <div>
       <article v-html="Marked.parse(data?.markdown ?? '')" />
       <div>
