@@ -15,7 +15,7 @@ const { title } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body>
+  <body class="text-secundary-200">
     <slot />
     <style is:global>
       @font-face {
@@ -24,6 +24,12 @@ const { title } = Astro.props;
       }
       * {
         font-family: URWGothic;
+        scrollbar-width: thin;
+      }
+
+      /* Chrome, Edge, and Safari */
+      *::-webkit-scrollbar {
+        width: 0px;
       }
     </style>
   </body>
