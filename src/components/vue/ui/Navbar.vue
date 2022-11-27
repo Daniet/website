@@ -5,7 +5,7 @@ onMounted(() => {
 });
 
 function logScroll() {
-  console.log(window.scrollY);
+  // console.log(window.scrollY);
 }
 </script>
 <template>
